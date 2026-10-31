@@ -65,7 +65,7 @@ models = {
 
 ## 6. Model Evaluation and Comparison
 ```python
-# Train, predict, and evaluate
+# Train, predict, and evaluate ::
 results = []
 for name, model in models.items():
     model.fit(X_train, y_train)
